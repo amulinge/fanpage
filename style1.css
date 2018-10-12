@@ -1,3 +1,5 @@
+
+
 .row{   
 
     background-color:black;
@@ -10,7 +12,7 @@
 }
 .mid{
     background-color:white;
-    color:black;
+    color:red;
     align-items:center;
     font-size:50px;
     margin-top:5px;
@@ -18,4 +20,18 @@
 }
 .aboutme{
     border:1px solid black;   
+}
+
+img{
+    display:flex;
+    justify-content: space-around;
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+}
+    
+body{
+    text-align: center;
 }

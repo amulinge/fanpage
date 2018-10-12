@@ -1,19 +1,37 @@
-html {
-    height: 100%;
+
+
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-color:blue;
+    color:red;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.aboutme{
+    border:1px solid black;   
 }
 
-body {
-    height: 100%;
+img{
+    display:flex;
+    justify-content: space-around;
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+}
     
-}
-a {
-    text-decoration: none;
-}
-
-.main {
-    height: 100%;
-}
-.social-image{
-    width: 30px;
-    margin: 15px;
+body{
+    text-align: center;
 }
