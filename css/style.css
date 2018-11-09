@@ -14,7 +14,7 @@
     background-color:blue;
     color:red;
     align-items:center;
-    font-size:50px;
+    font-size:100px;
     margin-top:5px;
     margin-bottom:5px;
 }
@@ -25,13 +25,32 @@
 img{
     display:flex;
     justify-content: space-around;
+    
 }
 
 .header {
     display:flex;
     justify-content: center;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
 }
     
 body{
     text-align: center;
+    background-color: blue
+  
 }
+
+.social-image{
+    width:50px;
+}
+
+.social{
+    display:flex;
+    justify-content:space-around;
+    
+}
+
